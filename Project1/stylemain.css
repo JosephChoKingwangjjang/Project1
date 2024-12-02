@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.mainpage {
+    background-color: #A5A68F;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 116fr 191fr 439fr 428fr 415fr 206fr 133fr;
+    padding: 18.8px;
+    height: 136;
+    background-color: #FAF4E3;
+}
+
+.menuLogoPng {
+    height: 40.8px;
+    margin: 7px;
+    justify-content: right;
+}
+
+.inSidePage {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 19.5px;
+}
+
+.searchBar {
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    height: 50px;
+    width: 428.61px;
+    font-weight: 700;
+}
+
+.signUpceateAccount {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 19.5px;
+}
