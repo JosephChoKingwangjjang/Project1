@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #A5A68F;
+}
+
 .mainpage {
     background-color: #A5A68F;
 }
@@ -35,17 +39,44 @@
     background-color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* 수직 가운데 정렬 */
     border-radius: 40px;
-    height: 50px;
-    width: 428.61px;
-    font-weight: 700;
+    position: relative;
+    width: 300.26874989px; /* 검색창 가로 길이 고정 */
+    height: 50px; /* 검색창 높이 설정 (메뉴바 높이에 맞추어 수정 가능) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 부드러운 외곽선 */
+    margin-top: 5px; /* 검색창을 5픽셀 아래로 내림 */
 }
 
+.searchBar input[type="text"] {
+    width: 100%; /* 검색창 안의 input 가로 길이를 채우도록 설정 */
+    height: 100%; /* 검색창 높이와 동일하게 설정 */
+    padding: 10px 50px 10px 15px; /* 아이콘 공간 확보 */
+    border: none; /* 보더 제거 */
+    border-radius: 40px; /* 모서리 곡선 */
+    font-size: 18px;
+    outline: none; /* 클릭 시 외곽선 제거 */
+}
+
+.searchBar::before {
+    content: "\1F50D"; /* 돋보기 아이콘 */
+    position: absolute;
+    right: 15px;
+    font-size: 24px;
+    color: #8A2BE2;
+}
+
+
 .signUpceateAccount {
-    display: flex;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: 19.5px;
 }
+
+.signUpceateAccount a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: black; /* 글씨 색상을 검은색으로 변경 */
+}
+
