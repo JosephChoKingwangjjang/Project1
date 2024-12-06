@@ -34,6 +34,11 @@ body {
     font-size: 19.5px;
 }
 
+.inSidePage a {
+    text-decoration: none;
+    color: black;
+}
+
 .searchBar {
     color: black;
     background-color: white;
@@ -58,12 +63,13 @@ body {
     outline: none; /* 클릭 시 외곽선 제거 */
 }
 
-.searchBar::before {
+#searchIcon {
     content: "\1F50D"; /* 돋보기 아이콘 */
     position: absolute;
     right: 15px;
     font-size: 24px;
     color: #8A2BE2;
+    cursor: pointer;
 }
 
 
