@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+<form action="/register" method="POST">
+    <div class="icon">
+        <img src="아이템 로고.png">
+    </div>
+    <label for="useremail">이메일</label>
+    <input type="email" id="email" name="email" placeholder="@gmail.com" required><br>
+
+    <label for="password">비밀번호</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <label for="password-confirm">비밀번호 재확인</label>
+    <input type="password" id="password-confirm" name="password-confirm" required><br>
+
+    <label for="username">이름</label> 
+    <input type="text" id="username" name="username" required><br>
+
+    <label for="year-month-day">생년월일</label><br>
+    <input type="text" id="year-month-day" name="year-month-day" placeholder="YYYY / MM / DD" required><br>
+
+    <label>성별</label>
+    <div class="gender">
+    <label for="male">
+        <input type="radio" id="male" name="gender" value="male" required>
+        남성
+    </label>
+
+    <label for="female">
+        <input type="radio" id="female" name="gender" value="female" required>
+        여성
+    </label><br>
+    </div>
+        <button class="accession" type="submit">가입하기</button>
+    </form>
+</form>
+</body>
+</html>
