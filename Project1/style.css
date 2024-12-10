@@ -62,6 +62,15 @@ button:hover {
     margin: 0px 3px 0px 0px;
 }
 
+a {
+    text-decoration: none; /* 기본 밑줄 없애기 */
+    color: #45a049; /* 부모 요소의 색상 상속 */
+}
+
+a:hover {
+    color: #45a049; /* 부모 요소의 색상 상속 */
+}
+
 .signIn {
     color: #A5A68F;
     cursor: pointer;
