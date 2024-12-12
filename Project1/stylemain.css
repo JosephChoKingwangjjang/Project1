@@ -86,3 +86,6 @@ body {
     color: black; /* 글씨 색상을 검은색으로 변경 */
 }
 
+.justBitEmpty {
+    height: 1000px;
+}
