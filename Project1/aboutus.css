@@ -121,3 +121,21 @@ body {
     text-align : center;
     padding : 100px 0;
 }
+
+.justBitEmpty {
+    height: 564.030061px;
+}
+
+.downBar {
+    background-color: #454545; /* 배경색 설정 */
+    color: #FFFFFF; /* 글자색 흰색으로 변경 */
+    padding: 25.5px; /* 내부 여백 설정 */
+    text-align: left; /* 왼쪽 정렬 */
+    font-size: 14px; /* 글씨 크기 설정 */
+    line-height: 1.8; /* 줄 간격 설정 */
+    width: 100%; /* 화면 가로를 꽉 채움 */
+}
+
+.downBar p {
+    margin: 10px 0; /* 각 문단의 위아래 여백 설정 */
+}
