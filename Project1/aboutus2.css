@@ -130,7 +130,7 @@ body {
     text-align: left; /* 왼쪽 정렬 */
     font-size: 14px; /* 글씨 크기 설정 */
     line-height: 1.8; /* 줄 간격 설정 */
-    width: 1512px; /* 화면 가로를 꽉 채움 */
+    width: 100%; /* 화면 가로를 꽉 채움 */
 }
 
 .downBar p {
